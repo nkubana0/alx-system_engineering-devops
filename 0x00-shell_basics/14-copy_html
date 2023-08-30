@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -av --update --exclude '*.html' --include '*/' --include '*.html' --exclude '*' ./ ../
