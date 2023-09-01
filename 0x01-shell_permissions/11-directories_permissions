@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -R oug+X ./ ..
+find . -type d -exec chmod 755 {} +
